@@ -15,12 +15,18 @@ SmartConvert is a full-stack AI-powered web application that helps businesses an
 
 ## 🛠️ Tech Stack
 
-| Layer        | Tools Used                             |
-|--------------|-----------------------------------------|
+| Layer        | Tools Used                                  |
+|--------------|----------------------------------------------|
 | Backend      | Python, Django, Pandas, Joblib, Scikit-learn |
-| Frontend     | Bootstrap, Chart.js, HTML/CSS            |
-| ML Model     | Gaussian Naive Bayes                    |
-| Deployment   | (Optional) Render / PythonAnywhere      |
+| Frontend     | Bootstrap, Chart.js, HTML/CSS                |
+| ML Model     | Gaussian Naive Bayes                         |
+| Deployment   | Render (Cloud Hosting)                       |
+
+---
+
+## 🌍 Live Demo
+
+🔗 **Try the project live:** [SmartConvert Demo (Render)](https://smartconvertbyyash.onrender.com)
 
 ---
 
@@ -30,6 +36,8 @@ SmartConvert is a full-stack AI-powered web application that helps businesses an
 SmartConvert/
 ├── model.pkl               # Trained ML model
 ├── requirements.txt        # Python dependencies
+├── Procfile                # For Render deployment
+├── render.yaml             # Render config file
 ├── smartconvert/           # Django project
 │   ├── manage.py
 │   └── predictor/
@@ -69,7 +77,7 @@ Upload a CSV file with the following columns:
 
 ---
 
-## ▶️ How to Run
+## ▶️ How to Run Locally
 
 ```bash
 # Clone the repo
@@ -86,7 +94,5 @@ python manage.py runserver
 ---
 
 ## ✨ Credit
-**Yash Kumar Jha**  
 
-
----
+ by Yash Kumar Jha**
